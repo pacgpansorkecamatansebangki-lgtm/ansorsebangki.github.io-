@@ -1,0 +1,91 @@
+/* ====== Style Umum ====== */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* ====== Header ====== */
+header {
+  background: linear-gradient(135deg, #006400, #228B22);
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+header h3 {
+  font-size: 1.4rem;
+  font-weight: normal;
+}
+
+/* ====== Navigasi ====== */
+nav {
+  background: #004d00;
+  padding: 12px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ====== Section ====== */
+section {
+  padding: 60px 20px;
+}
+
+section h2 {
+  color: #006400;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+/* ====== Program ====== */
+#program {
+  background: #eef6ee;
+}
+
+#program ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+/* ====== Kontak ====== */
+#contact a {
+  color: #006400;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* ====== Footer ====== */
+footer {
+  background: #222;
+  color: #bbb;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
+
+footer p {
+  margin: 0;
+}
